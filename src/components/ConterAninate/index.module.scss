@@ -1,0 +1,62 @@
+.btn {
+  outline: 0;
+  border: 1px solid rgb(49 74 204 / 30%);
+  border-radius: 2px;
+  background: rgb(49 74 204);
+  min-width: 56px;
+  min-height: 32px;
+  color: #fff;
+  cursor: pointer;
+  &:active {
+    background: rgb(49 74 204 / 80%);
+  }
+}
+
+.counter__button--group {
+  .btn {
+    &:active {
+      background: rgb(49 74 204 / 80%);
+    }
+    &:first-child {
+      border-right: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    &:last-child {
+      border-left: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    &:not(:last-child, :first-child) {
+      border-right: 0;
+      border-left: 0;
+      border-radius: 0;
+    }
+  }
+}
+
+.coutner__reset {
+  margin-left: 10px;
+}
+
+.bounce {
+  animation: bounce-ani 0.3s both;
+}
+
+@keyframes bounce-ani {
+  0% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(10px);
+  }
+  90% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
