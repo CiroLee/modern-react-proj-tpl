@@ -16,7 +16,7 @@ npm run build
 
 ## stacks
 
-| 名称             | 描述                                            | 链接                              |
+| Name             | Desc                                            | Link                              |
 | ---------------- | ----------------------------------------------- | --------------------------------- |
 | react18          | JavaScript library for building user interfaces | https://zh-hans.reactjs.org/      |
 | react-router(v6) | react routing management                        | https://reactrouter.com           |

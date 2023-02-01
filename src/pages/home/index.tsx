@@ -6,8 +6,8 @@ const Home: FC = () => {
     <div>
       <CounterAnimate />
       <div className={style.home} m="t-10%" text-center text-14px>
-        <a href="https://github.com/CiroLee/react-ts-tpl" target="_blank" rel="noreferrer">
-          react-ts-tpl
+        <a href="https://github.com/CiroLee/modern-react-proj-tpl" target="_blank" rel="noreferrer">
+          modern-react-proj-tpl
         </a>
         <a href="https://github.com/pmndrs/zustand" target="_blank" rel="noreferrer">
           zustand

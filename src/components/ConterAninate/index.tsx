@@ -31,11 +31,11 @@ const CounterAnimate = () => {
       </div>
       <div mt-20px flex justify-center>
         <div className={style['counter__button--group']}>
-          <button className={style.btn} onClick={() => changeCounter(1)}>
-            +
-          </button>
           <button className={style.btn} onClick={() => changeCounter(-1)}>
             -
+          </button>
+          <button className={style.btn} onClick={() => changeCounter(1)}>
+            +
           </button>
         </div>
         <button ml-10px className={classNames(style.btn)} onClick={resetCounter}>
